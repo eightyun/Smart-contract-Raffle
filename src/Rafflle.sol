@@ -104,6 +104,8 @@ contract Raffle is VRFConsumerBaseV2
         emit RaffleEnter(msg.sender);
     }
 
+    function 
+
     function pickWinner() external
     {
         if(block.timestamp - s_lastTimeStamp < i_interval)
